@@ -1,12 +1,10 @@
-var array = [4,5,6,5135,41,414];
-function storeNumber(num) {
-array.push(num);
+var array = [];
 
+function storeNumber(num) {
+  array.push(num);
 }
 
 function sortArray(arr) {
-
-
   arr.sort(function(a,b){
     return a - b;
   });
@@ -14,7 +12,7 @@ function sortArray(arr) {
 }
 
 function arrayExport(){
-  return sortArray(array)
+  return sortArray(array);
 }
 
 
